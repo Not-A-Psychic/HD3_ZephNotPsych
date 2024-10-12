@@ -11,6 +11,12 @@ Agents:
 User:
 The person using the system. They will be looking for a movie to watch and they have a preferred genre or genres in mind. They should access the genres they are interested in and speak to the respective agent. By the end of the interaction they should find a movie they are interested in and can further explore on their own. 
 
+Genre Agent Choices: Action, Comedy, Romance, Horror, Drama, Sci-fi
+
+Agent Template: Name, Age Range, Gender, IncomeLevel, Education, Job Title, Company Size, Industry Type, Values..., Interests..., Hobbies..., Lifestyle, Goals, Hopes, PainPoints, Fears, Decision Criteria, Willingness to Change, Objections, Role in Purchase Process, Preferred Content Channels
+
+Action: 
+
 # Solution:
 
 # Requirements:
