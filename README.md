@@ -1,23 +1,15 @@
 # HD3_ZephNotPsych
 
-# List:
-Here are ten innovative yet beginner-friendly project ideas using Fetch.ai:
-
-	1.	Decentralized Ride-Sharing Service: Create a simple ride-sharing platform using Fetch.ai agents to match drivers and passengers, optimizing routes and costs.
-	2.	Automated Marketplace for Freelancers: Build a marketplace where agents can negotiate jobs and fees on behalf of freelancers, ensuring a fair and efficient contracting process.
-	3.	Energy Trading Platform: Develop a system for peer-to-peer energy trading, where households can buy and sell excess renewable energy using Fetch.ai agents.
-	4.	Smart Parking Finder: Use Fetch.ai to create an application that locates available parking spaces nearby and negotiates prices based on demand.
-	5.	Decentralized Hotel Booking System: Create a decentralized travel platform where users can book accommodation, and agents help find the best deals.
-	6.	Event Ticket Trading Platform: Build a platform that allows users to buy, sell, or swap event tickets with agents assisting in finding the best offers.
-	7.	Personalized Learning Tutor: Develop a digital tutor that suggests educational resources based on the learner’s preferences and behavior.
-	8.	Supply Chain Optimization: Create a system where Fetch.ai agents track goods throughout the supply chain, improving transparency and efficiency.
-	9.	Crowdsourced Data Collection: Build an application where users can contribute data (like local weather or traffic conditions) in exchange for rewards.
-	10.	Decentralized Charity Donation Platform: Create a platform where donors can directly fund projects, with Fetch.ai agents ensuring that donations are used efficiently and transparently.
-
-These ideas aim to balance innovation with simplicity, making them suitable for beginners while providing real-world value.
-
 # Problem:
-- 
+We will build a system that recommends movies to users depending on their tastes. 
+
+Agents:
+1. Genre Agents: There will be multiple agents here offered in the interface. One agent for each general genre of a movie. Each agent will have their own personality and preferences for movies. They will need to be created first and will have to be listed in the interface. Each will have their own preferences for movies that have their own genre attached to the tag. They should have some knowledge of the movie to offer to the user as required. The user should have a choice to say if they have watched the movie already or not. If they haven't watched the movie, they will be asked if they find the movie interesting. If yes, their profile will be updated with the genres of the movie.
+   
+2. Master Agent: This will be the first medium of communication with the user, but will be created second as it is not as important as the genres. They will ask the user some questions that will judge their usual tastes in movies, such as offering a list of movies and asking them one by one if they like, dislike or haven't heard of them. Based on their responses, their preferred genre will be identified and recommended at the end of the process. However, they will have access to all of them.
+
+User:
+The person using the system. They will be looking for a movie to watch and they have a preferred genre or genres in mind. They should access the genres they are interested in and speak to the respective agent. By the end of the interaction they should find a movie they are interested in and can further explore on their own. 
 
 # Solution:
 
